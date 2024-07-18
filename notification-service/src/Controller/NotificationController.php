@@ -1,7 +1,5 @@
 <?php
 
-// src/Controller/NotificationController.php
-
 namespace App\Controller;
 
 use App\Entity\Notification;
@@ -10,6 +8,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Contracts\HttpClient\HttpClientInterface;
 
 class NotificationController extends AbstractController
 {
